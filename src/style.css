@@ -1,1 +1,33 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: black;
+}
+
+#center-all {
+  text-align: center;
+}
+
+#nombre {
+  font-style: italic;
+  color: rgb(182, 3, 3);
+  background-color: yellow;
+  font: verdana;
+  text-transform: uppercase;
+  text-align: center;
+  box-shadow: 0 0 8px 8px black inset;
+  width: 30%;
+  /* height: 130%; */
+  transform: translate(-50%, -90%);
+  padding: 30px 10px 10px 10px;
+
+  position: absolute;
+  top: 110%;
+  left: 50%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: purple;
+}
